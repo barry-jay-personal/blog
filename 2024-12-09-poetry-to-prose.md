@@ -14,7 +14,7 @@ figure out why, but now think that its because I write poetry; those
 expecting prose get frustated.
 
 To illustrate, here is a concluding slide from my upcoming talk (PEPM,
-January 2005, draft paper is online).
+January 2025, draft paper is online).
 
 - Encodings are patches.
 - Theorems trump theses. 
