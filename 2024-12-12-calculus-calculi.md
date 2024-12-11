@@ -1,6 +1,7 @@
 
-title: Calculus or Calculi
-date: 2024-12-12
+# Calculus or Calculi
+## Barry Jay
+### 2024-12-12
 
 According to the [Internet Encyclopedia of Philosophy]
 (https://iep.utm.edu/lambda-calculi) the λ-calculus is in fact a
@@ -17,29 +18,25 @@ or three or two basic operators, which can be combined by application
 to produce functions without any need for binding.  Indeed, it seems
 that any new model of computation is destined to spawn variants that
 stem from a common root.  For example, pattern calculus is rooted in
-pattern-matching but there is more than one way to handle mis-matches.
+pattern-matching but there is more than one way to handle mismatches.
 
 Most recently, I developed tree calculus on the principal that
 computations are unlabelled trees, and the programs and values are the
-binary trees but there is some freedom when it comes to choosing the
+binary trees, but there is some freedom when it comes to choosing the
 reduction rules. They should maximise expressive power, be compact and
 be reasonable.
 
 In my book [Reflective Programs in Tree
-Calculus](https://github.com/barry-jay-personal/tree-calculus/tree_book.pdf)
+Calculus](https://github.com/barry-jay-personal/tree-calculus/treebook.pdf)
 I emphasised expressive power and compactness but reasoning is
 hard. That is, there are only three reduction rules, according to
 whether the first argument is a leaf, stem or fork, but the second
 rule does double duty, to duplicate arguments like the operator $S$ of
 combinatory logic, and to support program analysis.
 From this can be built *triage* for case analysis, using the rules
-$$
-\begin{array}
-T \{f_0, f_1, f_2\} \Delta &\longrightarrow& f_0 \\
-T \{f_0, f_1, f_2\} (\Delta x) &\longrightarrow& f_1x \\
-T \{f_0, f_1, f_2\} (\Delta x y) &\longrightarrow& f_2 x y
-\end{array}
-$$
+- T {f0, f1, f2} $\Delta \longrightarrow$ f0
+- T {f0, f1, f2} $(\Delta x)\longrightarrow$ f1 $x$
+- T {f0, f1, f2} $(\Delta x y)\longrightarrow$ f2 $x$ $y$
 
 
 Well, everything worked just fine until it came to typing. Each triage
@@ -50,17 +47,16 @@ self-interpreters use triply-nested triage, which was overwhelming.
 After explaining all this to Johannes Bader in one of our Zoom
 meetings, he suggested that the triage reductions above should be
 rules, where triage is introduced by the following mnemonic:
-$$
-\Delta \Delta &=& K \\
-\Delta (\Delta x) &=& S x \\
-\Delta (\Delta w x) y &=& T\{w,x,y}\;. 
-$$
+
+- $\Delta \Delta = K$
+- $\Delta (\Delta x)  = S x$
+- $\Delta (\Delta w x) y =  T$ { $w,x,y$ }
 
 This is more reasonable, but less compact than the original. There are
 five reduction rules instead of three, but each rule does a single
 job, and the typing is more straightfoward. I used this *triage
 calculus* in my paper [Typed Program Analysis without
-Encodings](https://github.com/barry-jay-personal/typed_tree_calculus/typed_program_analysis.pdf)
+Encodings](https://github.com/barry-jay-personal/typedtreecalculus/typedprogramanalysis.pdf)
 and Johannes used it in his [exploration of tree
 calculus](treecalcul.us).
 
