@@ -3,8 +3,7 @@
 ## Barry Jay
 ### 2024-12-12
 
-According to the [Internet Encyclopedia of Philosophy]
-(https://iep.utm.edu/lambda-calculi) the λ-calculus is in fact a
+According to the [Internet Encyclopedia of Philosophy](https://iep.utm.edu/lambda-calculi) the λ-calculus is in fact a
 family of formal systems, a family of calculi that all stem from the
 same root. They may support additional term forms or reduction rules,
 such as $\eta$-reduction, or give different accounts of substitution,
@@ -27,7 +26,7 @@ reduction rules. They should maximise expressive power, be compact and
 be reasonable.
 
 In my book [Reflective Programs in Tree
-Calculus](https://github.com/barry-jay-personal/tree-calculus/treebook.pdf)
+Calculus](https://github.com/barry-jay-personal/tree-calculus/blob/master/tree_book.pdf)
 I emphasised expressive power and compactness but reasoning is
 hard. That is, there are only three reduction rules, according to
 whether the first argument is a leaf, stem or fork, but the second
@@ -56,9 +55,9 @@ This is more reasonable, but less compact than the original. There are
 five reduction rules instead of three, but each rule does a single
 job, and the typing is more straightfoward. I used this *triage
 calculus* in my paper [Typed Program Analysis without
-Encodings](https://github.com/barry-jay-personal/typedtreecalculus/typedprogramanalysis.pdf)
+Encodings](https://github.com/barry-jay-personal/typed_tree_calculus/blob/main/typed_program_analysis.pdf)
 and Johannes used it in his [exploration of tree
-calculus](treecalcul.us).
+calculus](https://treecalcul.us/).
 
 So now we have the *original tree calculus* of the book and *triage
 calculus*. Who knows what other tree calculi will emerge in the
