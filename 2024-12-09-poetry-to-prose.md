@@ -99,11 +99,11 @@ must have a unique type, a tree type, that exactly captures its
 structure. However, many different programs may have the same function
 type, so this is captured by subtyping. For example, the reduction rule
 
-Node Node y z --> y
+$\Delta \Delta y z \Longrightarrow y$
 
 yields the subtyping rule
 
-Fork Leaf Y   <   Z -> Y
+$Fork\ Leaf\ Y   <   Z \rightarrow Y$
 
 **Tricky programs are typed by hacking**
 
@@ -111,14 +111,14 @@ Traditionally, when complex behaviour threatens to break the type
 system, new syntax is introduced.  For example, when a fixpoint
 combinator is represented by the self-application of some combinator
 omega which doesn't have a type, the solution has been to add a new
-operator Y for fixpoints. Its behaviour is captured by a new reduction
+operator $Y$ for fixpoints. Its behaviour is captured by a new reduction
 rule
 
-Y f --> f (Y f)
+$Y f \Longrightarrow f (Y f)$
 
 and its type is
 
-(X -> X) -> X.
+$(X \rightarrow X) \rightarrow X$.
 
 However, there is no need to hack the term language. It is enough to
 hack the type system, by adding a subtyping rule for the program type
@@ -129,5 +129,4 @@ I corrupted the files; it wouldn't let me delete them; I made them private;
 I'm not allowed to have two blogs; 
 and now I can't even see the files to make them public again. 
 So I'm just making a regular repository (sigh). 
-Also, tried to use latex for the displays above but usual latex syntax isn't working, at least in preview.
 You can make pull requests or write me direct on Barry.Jay8@gmail.com
