@@ -130,3 +130,21 @@ I'm not allowed to have two blogs;
 and now I can't even see the files to make them public again. 
 So I'm just making a regular repository (sigh). 
 You can make pull requests or write me direct on Barry.Jay8@gmail.com
+
+### Comment: Joshua Seigler joshua@seigler.net 
+
+Hi Barry,
+
+I came across your site treecalcul.us on HackerNews and it has stuck in my head! As a fan of Douglas Hofstadter's "Godel, Escher, Bach" I've had a little exposure to the idea of lambda calculus, and as a software engineer I enjoy esoteric programming languages. I intend to play with this very interesting thing you have made! I may attempt some old Advent of Code challenges using it.
+
+Anyway I am writing with a suggestion for your blog GitHub repository. In your post on 2024-12-09 (which I found quite  instructive, thanks) you had some trouble getting your Latex syntax working. GitHub flavored markdown supports Latex math syntax inside $ fences. I don't know Latex syntax or I would have opened a PR.
+
+I hope this is helpful.
+
+Best regards,
+Joshua Seigler
+
+### Reply
+
+Thanks, all sorted now. 
+
