@@ -8,8 +8,8 @@ example, the addition of natural numbers is an infinite set of ordered
 pairs, while a real number is an infinite sequence.  One approach to
 taming these infinities is to work with rules or processes instead of
 sets. Then rule for addition can be described by a
-$\lambda$-abstraction. A real number is a process for producing its
-decimal representation. However, the infinities re-appear in the
+$\lambda$-abstraction while a real number is a process for producing its
+digits. However, the infinities re-appear in the
 semantics of $\lambda$-calculus. For example, the meaning of a
 $\lambda$-abstraction in domain theory is the limit of an infinite
 sequence of approximations. Again, categorical semantics looks
@@ -26,18 +26,18 @@ is unbounded.
 My book [Reflective Programs in Tree
 Calculus](https://github.com/barry-jay-personal/tree-calculus/tree_book.pdf)
 shows how to implement arithmetic but does not go on to consider real numbers, etc.
-Here is very first attempt, hot off the whiteboard.
+so here is very first attempt, hot off the whiteboard. (Yes! I have a whiteoard at home, hanging on the door of my study. Usually the door is open, with the board facing my desk, but if the door is closed, then the board serves as fair warning.) 
 
-Every program $r$ can be viewed as a real number between zero and one, expressed in binary digits as follows.
+Every program $r$ can be viewed as a real number between zero and one, expressed in binary digits, as follows.
  - If the application of $r$ to zero is not a boolean then the real number is zero.
- - If the application of $r$ to zero is a boolean $b$ then that is the first digit, with the rest produced by applying $r$ to one, etc.
+ - If the application of $r$ to zero is a boolean then that is the first digit, with the rest produced by applying $r$ to one, etc.
  - If the application of $r$ to zero does not have a value then neither does $r$.
 
 Thus, if applications of $r$ take boolean values on arguments from
 zero to some $n$ but does not have a value on the successor of $n$
-then $r$ is partially-defined, with only its first $n$ digits known.
+then $r$ is partially-defined, with only its first $n+1$ digits known.
 It should be possible to develop the usual arithmetic operations on
 the reals. I can also imagine defining the algebraic numbers as
 solutions to equations. Even transcendental numbers such as $\pi$ and
-$e$ may be doable. What else needs doing? Let us know if you try this out! 
+$e$ should be doable, as their digits are defined by rules. What else? Let us know if you try this out! 
   
