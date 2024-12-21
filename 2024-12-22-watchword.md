@@ -19,8 +19,7 @@ I had finished writing the book in
 review, and didn't know what to do. So I pulled out and
 self-published. But who would know it existed? So sharing it was. For
 example, I summarised each chapter in a
-[tweet](https://github.com/barry-jay-personal/tree-calculus/blob/master/tweets_on_trees.pdf). I
-don't remember my watchwords for 2022 and 2023.
+[tweet](https://github.com/barry-jay-personal/tree-calculus/blob/master/tweets_on_trees.pdf). 
 
 
 
