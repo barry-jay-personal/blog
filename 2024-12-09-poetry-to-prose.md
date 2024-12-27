@@ -131,7 +131,7 @@ and now I can't even see the files to make them public again.
 So I'm just making a regular repository (sigh). 
 You can make pull requests or write me direct on Barry.Jay8@gmail.com
 
-### Comment: [Joshua Seigler](joshua@seigler.net) 
+### Comment [Joshua Seigler](joshua@seigler.net) 
 
 Hi Barry,
 
@@ -148,7 +148,7 @@ Joshua Seigler
 
 Thanks, all sorted now. 
 
-### Comment: [Chewy](bsky.chewxy.com)
+### Comment [Chewy](bsky.chewxy.com)
 
 From the first post of your blog:
 
@@ -169,7 +169,7 @@ Don't think anyone's put that concept up so ... elegantly since you told it to m
 
 Wow, this was long before tree calculus. The missing step was to make these trees be functions, by adding some algebra. Some still haven’t grasped this point.
 
-### Comment 
+### Comment [Chewy](bsky.chewxy.com)
 
 Alan Kay once said something like "a change in viewpoint is worth 20 IQ points". Yeah, that was definitely well worth more than 20 IQ points. Made me look at programs much differently. I like the more conversational/prose style of your blog btw
 
