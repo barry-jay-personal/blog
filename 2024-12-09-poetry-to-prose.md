@@ -131,7 +131,7 @@ and now I can't even see the files to make them public again.
 So I'm just making a regular repository (sigh). 
 You can make pull requests or write me direct on Barry.Jay8@gmail.com
 
-### Comment: Joshua Seigler joshua@seigler.net 
+### Comment: [Joshua Seigler](joshua@seigler.net) 
 
 Hi Barry,
 
@@ -148,3 +148,33 @@ Joshua Seigler
 
 Thanks, all sorted now. 
 
+### Comment: [Chewy](bsky.chewxy.com)
+
+From the first post of your blog:
+
+	⁠At first, I couldn't figure out why, but now think that its because I write poetry; those expecting prose get frustated.
+
+That and the PEPM slide that you outline reminds me that I still keep with me a little post-it note from one of our first meetings. In it: 
+
+	⁠Source code is a parse tree. 
+	⁠A parse tree is but a rose tree. 
+	⁠A rose tree is but a labelled binary tree. 
+	⁠A labelled binary tree can be written as an unlabelled binary tree. 
+	⁠𝔹 is the mathematical object which binary trees belong to. 
+	⁠Instead of representing programs in ℕ, we can represent them in 𝔹
+
+Don't think anyone's put that concept up so ... elegantly since you told it to me
+
+### Reply
+
+Wow, this was long before tree calculus. The missing step was to make these trees be functions, by adding some algebra. Some still haven’t grasped this point.
+
+### Comment 
+
+Alan Kay once said something like "a change in viewpoint is worth 20 IQ points". Yeah, that was definitely well worth more than 20 IQ points. Made me look at programs much differently. I like the more conversational/prose style of your blog btw
+
+### Reply 
+
+Thx for the feedback. I’m not sure if I can change, or if I want to 🙃 The book would probably  expand by a factor of two or three, with all of the attendant difficulties, especially with precision, in a hostile environment. The same sort of thing happens with highly polymorphic programs. They are shorter but harder to understand without a change of viewpoint. Similarly I could have made pattern-matching on trees into a primitive operation.
+
+When writing the book, I tried to write for advanced high school students, who have no preconceptions. I plan to use the blog for writing less formal prose. In my dreams, people post their questions for me to answer. Today, I plan to post on intensionality in machine learning 😀
