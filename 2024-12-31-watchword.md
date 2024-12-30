@@ -19,7 +19,7 @@ When I finished writing [Reflective Programs in Tree Calculus](https://github.co
 review, and didn't know what to do. So I pulled out and
 self-published. But who would know it existed? So my word for the year was **share**. For
 example, I summarised each chapter in a
-[tweet](https://github.com/barry-jay-personal/tree-calculus/blob/master/tweets_on_trees.pdf).
+[tweet](https://github.com/barry-jay-personal/blog/2024-12-23-tweets-on-trees.md).
 
 
 
