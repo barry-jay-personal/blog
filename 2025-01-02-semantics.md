@@ -50,7 +50,11 @@ Dawkin's selfish gene. The titular claim of his book is that evolution
 is driven by copying of genes, not organisms. He also says that a gene
 is a recipe not a blueprint. In more detail, DNA is a recipe for
 building another organism, not a blueprint that outlines the organism.
-However, **a genome is both recipe and a blueprint**. It is a recipe
+However, 
+
+**a genome is both recipe and a blueprint**. 
+
+It is a recipe
 for making copies of itself. Perhaps this serves as a definition of
 life itself.  Something is alive if, in the right environment, it is
 both a recipe and a blueprint.  In this sense, Conway's Game of Life
