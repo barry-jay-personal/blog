@@ -59,3 +59,20 @@ to recharge the batteries. So my watchword for 2025 is
 ## Fun
 
 What will your watchword be? 
+
+### Comment James Eversole 
+
+Hi Barry,
+
+I wanted to thank you directly for sharing your discoveries related to the Tree Calculi. I came across your work as a result of Johannes Bader's website and have spent the last 3 weeks captivated by the possibilities of intensionality in practice. It led to me writing a small language in Haskell for exploring Tree Calculus very similar to the one Johannes implemented on his site's playground. While I'm not treading any new ground there, this has been an immensely fun and satisfying project that I can't seem to stop thinking about.
+
+The sharing of your papers, Coq proofs, and blog posts are all deeply appreciated. I don't have a formal background in computer science or mathematics, so some of the insights in your blog posts were instrumental in me gaining an intuition for the Tree Calculus. Similarly helpful was being able to reference the Coq proofs when reading through Reflective Programs in Tree Calculus and Typed Program Analysis without Encodings. Again, thank you sincerely for making these resources easily and publicly available.
+
+ I think your 2025 watchword "Fun" perfectly describes my feelings since discovering Tree Calculus a few weeks ago. It seems that my watchword will be "Learn" as I continue working towards a deeper understanding of both your research and the implications it has for practical programming.
+
+Have a happy new year!
+
+### Reply 
+
+Thank you so much for the kind words. 
+I'm particularly pleased that you have been able to get to grips with this, despite lacking any formal background, as I wrote the book with you as my ideal reader. 
