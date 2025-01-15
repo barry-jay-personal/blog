@@ -1,6 +1,6 @@
 # Hack the Types not the Terms
 ## Barry Jay
-### 2025-01-16
+### 2025-01-05
 
 Now that we can type a self-evaluator by $\forall X.\forall Y. (X \to Y) \to (X \to Y)$
 let's consider *type inference*. That is, given a term $t$ in some type context $\Gamma$ find a type $T$ such that $\Gamma \vdash t : T$.
