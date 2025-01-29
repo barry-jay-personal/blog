@@ -13,10 +13,10 @@ is a bit new, a bit weird, and it takes more than a glance to appreciate.
 How can we relate it to more familiar things?
 
 Till now, I've taken a two-pronged approach. One is to develop generic
-queries, to provide a natural foundation for the familar database
+queries, to provide a natural foundation for the familiar database
 queries like SELECT. This is clear enough but the focus is on data analysis, not
 program analysis, which has already been done both in practice and in
-theory by [pattern calculus]().
+theory by [pattern calculus](https://link.springer.com/book/10.1007/978-3-540-89185-7).
 
 The other is to produce toy examples of program analyses, such as
 computing the size of a program, or deciding program

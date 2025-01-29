@@ -33,4 +33,4 @@ For computer science, you need to break the
 abstractions by encoding $\lambda$-terms  as syntax trees to be analysed. These analyses may infer types, or apply optimisations using computations that are not representable without encoding. 
 
 The simpler way would be to take the syntax trees as fundamental, except that the choice of syntax is artificial, driven by human choices.
-However, all syntax is built on some finite alphabet, which can be encoded using small, unlabeled trees, or natural trees. So each label in a syntax tree can be replaced by a small tree, and the resulting tree of trees can be flattened to a singl natural tree. So let's base computing on natural trees and work up from there, to build tree-based calculi. 
+However, all syntax is built on some finite alphabet, which can be encoded using small, unlabeled trees, or natural trees. So each label in a syntax tree can be replaced by a small tree, and the resulting tree of trees can be flattened to a single natural tree. So let's base computing on natural trees and work up from there, to build tree-based calculi. 
