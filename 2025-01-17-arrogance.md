@@ -10,7 +10,7 @@ Frustrated, but determined not to back down, I answered "This changes everything
 
 There was a pause, our eyes locked, then he answered "You're quite arrogant, aren't you." 
 
-Well, that burst my buble. Going home I was so angry, which is unusual, but it happens when I don't know who is at fault. 
+Well, that burst my bubble. Going home I was so angry, which is unusual, but it happens when I don't know who is at fault. 
 Was it his for goading me, my boss's boss's boss, or was I making ridiculous claims?
 I think of myself as a numbers guy, but words are also tools of trade, so I looked up "arrogant" in the dictionary, which was then a big fat book. 
 Did I have "an unwarranted belief in my own abilities"? Slamming the book shut, I yelled "It's too soon to tell!" 
@@ -57,7 +57,7 @@ Then theorem-proving, which is so well represented in dependent types, could be 
 
 Since the size of values can be computed, the calculus already has the ingredients required for complexity theory, which could be performed statically or dynamically. Again, no details have been worked out. 
 
-The memory hierachy of stacks, caches, and heaps can all be represented as paths through trees that have dependent types, so let us do this within the core language. 
+The memory hierarchy of stacks, caches, and heaps can all be represented as paths through trees that have dependent types, so let us do this within the core language. 
 
 Operations on large arrays must be done in parallel, but the appropriate division depends on their size (or more generally, the problem shape), the hardware (including its shape), and the complexity of the low-level operations to be performed. 
 Since all of this intensional information can be supported, there is no barrier to redeveloping all the existing meta-theory on co-ordination within the core language.

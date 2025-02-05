@@ -77,5 +77,5 @@ decorations or let-terms. Further, it is clear how to solve $T < U\to
 
 However, everything becomes heavy when considering the additional
 rules needed to type queries, self-evaluators, etc. Queries seem to
-need need quantified types (triage must be universal). Self-evaluators
+need quantified types (triage must be universal). Self-evaluators
 need AsFunction types. If these can be typed using type schemes then type inference should be possible. 

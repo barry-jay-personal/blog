@@ -38,7 +38,7 @@ that year but was still stuck. So my focus for 2024 was to **finish**
 something. If necessary, write up the ugly solution with Top
 types. Happily, this was avoided by introducing the *as-function*
 types, which activate when their argument becomes a function type. The
-same day as the verfication in Coq was completed, I saw the call for
+same day as the verification in Coq was completed, I saw the call for
 papers for [PEPM](https://popl25.sigplan.org/home/pepm-2025), wrote
 the [paper](https://github.com/barry-jay-personal/typed_tree_calculus/blob/main/typed_program_analysis.pdf)
 in ten days for presentation in January. Finished!
